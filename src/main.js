@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import meImageCrop from 'components/me-image-crop'
+import meImageCrop from 'me-image-crop'
 import 'me-image-crop/lib/css/index.css'
 Vue.use(meImageCrop);//使用组件库
 

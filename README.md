@@ -11,9 +11,9 @@ $ npm install --save me-image-crop
 ```
 ## 使用
 
-全局引入
 ```js
 import meImageCrop from "me-image-crop";
+import 'me-image-crop/lib/css/index.css';
 Vue.use(meImageCrop )
 ```
 ```html

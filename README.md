@@ -1,8 +1,11 @@
 
 ## me-image-crop组件
+问题交流，微信superzay，南京
+
 在线演示地址：手机，pc浏览器访问(http://47.110.129.207/vue-compoens/me-image-crop/)
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1207/215805_db3bc299_1844723.jpeg "1575726795(1)_meitu_1.jpg")
+![输入图片说明](http://47.110.129.207/images/1234567.png)
 ## 安装
 
 ```bash

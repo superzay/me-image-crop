@@ -6,6 +6,7 @@
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1207/215805_db3bc299_1844723.jpeg "1575726795(1)_meitu_1.jpg")
 ![输入图片说明](http://47.110.129.207/images/1234567.png)
+
 ## 安装
 
 ```bash
@@ -28,7 +29,7 @@ Vue.use(meImageCrop )
  项目的cdn目录下，有使用script标签引用me-image-crop插件，进行快速开发的demo
 
 ## 补充说明
- 组件使用canvas对图片进行缩放和裁剪，使用单指可拖动图片，双指缩放图片 
+ 组件使用canvas对图片进行缩放和裁剪，使用单指可拖动图片，双指缩放图片和旋转图片
 
 ## API
 

@@ -1,6 +1,6 @@
 
 ## me-image-crop组件
-问题交流，微信superzay，南京
+
 
 在线演示地址：手机，pc浏览器访问(http://47.110.129.207/vue-compoens/me-image-crop/)
 
@@ -29,7 +29,7 @@ Vue.use(meImageCrop )
  项目的cdn目录下，有使用script标签引用me-image-crop插件，进行快速开发的demo
 
 ## 补充说明
- 组件使用canvas对图片进行缩放和裁剪，使用单指可拖动图片，双指缩放图片和旋转图片
+ 组件使用canvas对图片进行缩放和裁剪，可使用单指拖动图片、鼠标拖动图片、滚轮缩放图片，双指缩放图片、鼠标单击步进旋转图片、鼠标长按连续旋转图片、双指旋转图片
 
 ## API
 

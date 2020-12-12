@@ -5,13 +5,18 @@
     <!--选择图片-->
     <div style='' class='SltImg'>
       <label>选择要裁剪的图片</label>
-      <!--<input @change='getFile($event)' type="file" accept=".jpg,.png,.bmp,.gif"   />-->
+      <!--<input @change='getFile($event)' type="file" accept=".jpg,.png,.bmp,.gif"/>-->
       <input type="file" @change='getFile($event)' accept=".jpg,.png,.bmp,.gif" />
     </div>
     <!--图片裁剪组件-->
     <div v-if='openImgCropPopover' class='ImgCrop' style=''>
       <div style=''>
-        <me-image-crop ref='image-crop' @confirm-crop-image='getImg' @cancel-crop-image='cancel' :out-type='outType' :show-btn='showBtn' :image-src='imgSrc'></me-image-crop>
+        <me-image-crop ref='image-crop' @confirm-crop-image='getImg' @cancel-crop-image='cancel' :out-type='outType' :show-btn='showBtn' :image-src='imgSrc'>          
+          <!--可传递插槽-->
+          <!--<template v-slot:confirm>
+            <div style='width:25px;height:25px;background:yellow;border-radius:20px;'>ok</div>
+          </template>-->
+        </me-image-crop>
       </div>
 
     </div>
@@ -21,9 +26,6 @@
 </template>
 
 <script>
-  // @ is an alias to /src
-  // import HelloWorld from '@/components/HelloWorld.vue'
-
   export default {
     name: 'Home',
     data() {
@@ -38,27 +40,27 @@
     methods: {
       getImg: function(img) {
         if(this.outType === 'base64') {
-          this.croppedImg = img; //base64
-          this.openImgCropPopover = false;
+          this.croppedImg = img //base64
+          this.openImgCropPopover = false
         } else {
-          console.dir(img); //blob
-          this.openImgCropPopover = false;
+          console.dir(img) //blob
+          this.openImgCropPopover = false
         }
       },
       cancel: function() {
-        this.openImgCropPopover = false;
+        this.openImgCropPopover = false
       },
       //读取本地图片
       getFile: function(event) {
-        let _this = this;
-        let inputEl = event.currentTarget;
-        let reader = new FileReader();
+        let _this = this
+        let inputEl = event.currentTarget
+        let reader = new FileReader()
         reader.onload = function() {
-          _this.imgSrc = reader.result;
-          _this.openImgCropPopover = true;
-          inputEl.value = ''; //记得清空
+          _this.imgSrc = reader.result
+          _this.openImgCropPopover = true 
+          inputEl.value = '' //记得清空
         }
-        reader.readAsDataURL(inputEl.files[0]);
+        reader.readAsDataURL(inputEl.files[0])
 
         //使用me-image-crop组件的getImage方法获取图片
         /*this.showBtn = false;

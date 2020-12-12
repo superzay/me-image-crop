@@ -5,7 +5,9 @@ import store from './store'
 import meImageCrop from 'me-image-crop'
 import 'me-image-crop/lib/css/index.css'
 
-Vue.use(meImageCrop);
+// import meImageCrop from '@/components/me-image-crop/me-image-crop'
+
+Vue.use(meImageCrop)
 
 Vue.config.productionTip = false
 
@@ -14,3 +16,4 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+

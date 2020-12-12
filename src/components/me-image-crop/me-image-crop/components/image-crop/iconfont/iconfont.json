@@ -1,0 +1,51 @@
+{
+  "id": "2253778",
+  "name": "me-image-crop",
+  "font_family": "meImageCrop-iconfont",
+  "css_prefix_text": "meImageCrop-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11934167",
+      "name": "旋转",
+      "font_class": "rotate1",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "13075919",
+      "name": "旋转",
+      "font_class": "rotate2",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "5190005",
+      "name": "叉号_弹窗关闭",
+      "font_class": "cancel",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "5486309",
+      "name": "旋转",
+      "font_class": "rotate-right",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8022305",
+      "name": "对号",
+      "font_class": "sure",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "8147577",
+      "name": "旋转",
+      "font_class": "rotate-left",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}

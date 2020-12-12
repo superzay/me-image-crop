@@ -1,6 +1,6 @@
 
 ## me-image-crop组件
-
+问题交流，邮箱:369457642@qq.com
 
 在线演示地址：手机，pc浏览器访问(http://47.110.129.207/vue-compoens/me-image-crop/)
 
@@ -57,9 +57,15 @@ Vue.use(meImageCrop )
 | confirm-crop-image| 确认裁剪图片 |------|返回裁剪后的图片，格式base64|
 
 
+
+### Slot
+| 插槽名称   |  说明  |
+|--------|:-------:|
+| rotate| pc端图片旋转按钮插槽 |
+| cancel| 取消裁剪按钮插槽 |
+| confirm| 确认裁剪按钮插槽 |
+
+
 ## 运行
 克隆项目到本地，执行npm install安装依赖，然后运行npm run serve即可查看
-
-
-
 

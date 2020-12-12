@@ -1,0 +1,40 @@
+{
+  "_from": "me-image-crop@^1.0.11",
+  "_id": "me-image-crop@1.0.11",
+  "_inBundle": false,
+  "_integrity": "sha512-TsNATOVtzbp/tN6GcPvZ5qWK9kRDLdu7Umnse9m2hIg80q2EYE//S/4AnbDxqu9hFd5jdBW51sEDj/ULCUl+cg==",
+  "_location": "/me-image-crop",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "me-image-crop@^1.0.11",
+    "name": "me-image-crop",
+    "escapedName": "me-image-crop",
+    "rawSpec": "^1.0.11",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.11"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/me-image-crop/-/me-image-crop-1.0.11.tgz",
+  "_shasum": "7aff9d72b3de059154518f74fa2a9cf906f35d21",
+  "_spec": "me-image-crop@^1.0.11",
+  "_where": "C:\\Users\\huawei\\Desktop\\me-image-crop",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "me-image-crop",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.11"
+}

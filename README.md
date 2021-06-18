@@ -2,34 +2,47 @@
 ## me-image-crop组件
 问题交流，邮箱:369457642@qq.com
 
-在线演示地址：手机，pc浏览器访问(http://47.110.129.207/vue-compoens/me-image-crop/)
+在线演示地址：手机，pc浏览器访问(http://47.110.129.207/vue-components/me-smart-ui/)
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1207/215805_db3bc299_1844723.jpeg "1575726795(1)_meitu_1.jpg")
+![输入图片说明](http://47.110.129.207/images/1234567.jpg)
 ![输入图片说明](http://47.110.129.207/images/1234567.png)
 
 ## 安装
 
 ```bash
-$ npm install --save me-image-crop
+$ npm install --save me-smart-ui
 
 ```
 ## 使用
 
 ```js
-import meImageCrop from "me-image-crop";
-import 'me-image-crop/lib/css/index.css';
-Vue.use(meImageCrop )
+全量使用
+import MeSmartUi from "me-smart-ui";
+import 'me-smart-ui/lib/css/index.css';
+Vue.use(MeSmartUi )
+
+按需使用
+import meImageCrop from "me-smart-ui/meImageCrop";
+import 'me-smart-ui/lib/css/meImageCrop.css';
+Vue.use(meImageCrop)
 ```
+
 ```html
 <template>
   <me-image-crop></me-image-crop>
 </template>
  ```
-## CDN
- 项目的cdn目录下，有使用script标签引用me-image-crop插件，进行快速开发的demo
+
+
+## DMEO
+仓库地址：https://gitee.com/superzay/me-smart-ui
+源码目录下有插件使用的完整demo。路径：/src/package/components/me-image-crop/demo/index.vue
+
+
 
 ## 补充说明
  组件使用canvas对图片进行缩放和裁剪，可使用单指拖动图片、鼠标拖动图片、滚轮缩放图片，双指缩放图片、鼠标单击步进旋转图片、鼠标长按连续旋转图片、双指旋转图片
+
 
 ## API
 
@@ -67,5 +80,4 @@ Vue.use(meImageCrop )
 
 
 ## 运行
-克隆项目到本地，执行npm install安装依赖，然后运行npm run serve即可查看
-
+克隆项目到本地，执行npm install安装依赖，然后运行npm run dev即可查看
